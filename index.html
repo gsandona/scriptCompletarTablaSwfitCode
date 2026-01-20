@@ -1,15 +1,18 @@
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SwiftCode .NET Processor Studio</title>
+    <title>SwiftCode SQL Generator</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
       body { font-family: 'Inter', sans-serif; }
       pre, code { font-family: 'Fira Code', monospace; }
+      .drop-zone { border: 2px dashed #cbd5e1; transition: all 0.3s ease; }
+      .drop-zone.active { border-color: #6366f1; background-color: #eef2ff; }
     </style>
   <script type="importmap">
 {

@@ -1,5 +1,5 @@
 {
-  "name": "Copy of SwiftCode .NET Processor Studio",
-  "description": "A comprehensive developer tool to generate, simulate, and document the .NET script for processing SwiftCode Excel files into a SQL database.",
+  "name": "FinData SQL Master Studio",
+  "description": "Herramienta web profesional para transformar archivos financieros (Swift y ABA) en scripts de inserción SQL seguros, validados y optimizados.",
   "requestFramePermissions": []
 }
